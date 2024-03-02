@@ -1,0 +1,188 @@
+
+*{
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+html{
+    font-size: 16px;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: hsl(0, 0%, 85%);
+    display: flex;
+    flex-direction: column;
+     background-image: url(./images/bg-pattern-top-desktop.svg);
+     background-repeat: repeat;
+     background-position: 200px;
+}
+@font-face {
+    font-family:for-boldTYext ;
+    src: url(./fonts/LeagueSpartan-Black.ttf);
+}
+
+@font-face {
+    font-family:for-rate ;
+    src: url(./fonts//LeagueSpartan-Bold.ttf);
+}
+@font-face {
+    font-family:for-card ;
+    src: url(./fonts/LeagueSpartan-Medium.ttf);
+}
+.container{
+
+    background-color: white;
+    width: 90%;
+    height: 80%;
+    margin: auto ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.secondContent img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+
+
+}
+
+.content{
+    width: 90%;
+    height: 90%;
+}
+.firstContent{
+    padding: 5px;
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+.left-content{
+ width: 50%;
+ height: 100%;
+ display: flex;
+ flex-direction: column;
+ gap: 10px 2px;
+}
+.bolded-tex{
+    font-size: 3rem;
+    font-family: for-boldTYext;
+    width: 70%;
+    padding: 3px;
+    color: hsl(302, 50%, 27%);
+}
+.about{
+    font-size: 1.0em;
+    width: 60%;
+    color: hsl(0, 0%,40%);
+}
+.rates{
+    padding: 5px;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: for-rate;
+
+}
+.rate{
+    width: 80%;
+    height: 20%;
+    border-radius: 5px;
+    background-color: hsl(300, 24%, 96%);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 5px;
+
+}
+.rate > img{
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+
+}
+.image{
+    height: 80%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.rate2{
+    margin-left: 60px;
+}
+.rate3{
+    margin-left: 120px;
+}
+.secondContent{
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    height: 50%;
+    width: 100%;
+    justify-content: space-evenly;
+    
+}
+.card{
+    width: 30%;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color:hsl(302, 50%, 27%);
+    color: hsl(0, 0%, 100%);
+    font-family: for-card;
+    border-radius: 10px;
+}
+.card img{
+    margin-left: 20px;
+}
+.profile{
+    display: flex;
+}
+ul{
+    list-style: none;
+    width: 60%;
+    padding: 10px;
+   
+}
+
+.card > div > ul > li + li {
+    color:  hsl(333, 80%, 67%);
+
+}
+.card >p{
+    width: 90%;
+    font-size: 1.2rem;
+    align-self: center;
+    color: aliceblue;
+
+}
+.card2{
+    margin-top: 20px;
+}
+.card3{
+    margin-top: 40px;
+}
+.attribution{
+    margin:auto;
+    width: 60%;
+    background-color: aliceblue;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2em;
+    box-shadow: inset 5px 5px 30px #15ac81,inset -5px -5px 50px  #710ad1,5px 5px 10px grey;
+   color: rgb(212, 7, 133);
+   font-family: for-card;
+}
+a{
+    margin: 5px;
+
+}
